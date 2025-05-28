@@ -13,7 +13,6 @@ const menuItems = [
 ];
 
 app.get('/menu', (req, res) => {
-  res.send("hii");
   res.json(menuItems);
 });
 
